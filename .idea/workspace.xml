@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6071332b-b8a0-475c-9661-333cc2b89d96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/propeller.ini" beforeDir="false" afterPath="$PROJECT_DIR$/examples/propeller.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/bladeBEMT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyBEMT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyBEMT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/test1.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybemt/airfoils/CLARKY.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pybemt/airfoils/CLARKY.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybemt/airfoils/GOE_408.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pybemt/airfoils/GOE_408.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybemt/airfoils/GOE_450.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pybemt/airfoils/GOE_450.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybemt/airfoils/NACA_4412.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pybemt/airfoils/NACA_4412.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybemt/airfoils/NACA_63815.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pybemt/airfoils/NACA_63815.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybemt/airfoils/NRELS814.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pybemt/airfoils/NRELS814.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,26 +44,52 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ryan/Documents/GitHub/pyBEMT/examples",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ryan/Documents/GitHub/pyBEMT/examples/Blades&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/Blades" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.bladeBEMT">
+    <configuration name="bladeBEMT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyBEMT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/bladeBEMT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_propeller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyBEMT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,31 +134,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyBEMT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.bladeBEMT" />
         <item itemvalue="Python.run_propeller" />
         <item itemvalue="Python.setup" />
       </list>
@@ -137,7 +151,11 @@
       <option name="presentableId" value="Default" />
       <updated>1686046584754</updated>
       <workItem from="1686046586768" duration="4838000" />
-      <workItem from="1686296949592" duration="4516000" />
+      <workItem from="1686296949592" duration="10002000" />
+      <workItem from="1686671219580" duration="246000" />
+      <workItem from="1686687227231" duration="9683000" />
+      <workItem from="1686731089474" duration="353000" />
+      <workItem from="1686733111438" duration="327000" />
     </task>
     <servers />
   </component>
@@ -148,9 +166,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pybemt/rotor.py</url>
-          <line>269</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/examples/bladeBEMT.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -159,6 +177,7 @@
     <SUITE FILE_PATH="coverage/pyBEMT$run_propeller.coverage" NAME="run_propeller Coverage Results" MODIFIED="1686049111621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/pyBEMT$setup.coverage" NAME="setup Coverage Results" MODIFIED="1686048518337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyBEMT$.coverage" NAME=" Coverage Results" MODIFIED="1686048579440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/pyBEMT$test.coverage" NAME="test Coverage Results" MODIFIED="1686305184808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/pyBEMT$test.coverage" NAME="test Coverage Results" MODIFIED="1686319171704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/pyBEMT$bladeBEMT.coverage" NAME="bladeBEMT Coverage Results" MODIFIED="1686730876702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
   </component>
 </project>
